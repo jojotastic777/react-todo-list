@@ -1,0 +1,13 @@
+.App {
+    font-family: sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+
+    overflow: auto;
+
+    .title {
+        font-size: 3em;
+    }
+}

@@ -1,0 +1,28 @@
+.NavbarItem {
+    padding: 1em;
+    margin-right: 0.1em;
+
+    background-color: #444444;
+    color: #aaaaaa;
+
+    user-select: none;
+
+    transition: all 200ms, color 70ms, background-color 70ms;
+}
+
+.NavbarItem:hover {
+    background-color: #555555;
+    color: #dddddd;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+}
+
+.NavbarItem:active {
+    background-color: #666666;
+    color: #ffffff;
+}
+
+.NavbarItem.noexpand:hover {
+    padding-right: initial;
+    padding-left: initial;
+}
